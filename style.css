@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2f3035;  /* leave background-color here for while image loads */
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section {
+    text-align: center;
+    padding-top: 14px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    /* background-color: blue; */
+    height: 118px;
+    text-align: center;
+    
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.301);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+main {
+    /* background-color: orange; */
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;  
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.664);
+
+    
+}
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+     /* Removes the underline from links - only from the nav div */
+    font-size: 12px;
+    padding-left: 10px; /* Need to add this to both left and right */
+    padding-right: 10px; /* to avoid the nav bar looking lopsided */
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
